@@ -1,0 +1,849 @@
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+    overflow-x: hidden;
+	height: 4000px;
+	overflow-y: scroll;
+	font-family: 'Ubuntu';
+	background: #fff;
+	margin:0px;
+}
+
+.content{
+	width: 100%;
+	background-color:#fff;
+	margin-top:0px;
+}
+.polosa{
+	position: absolute;
+	width: 100%;
+	height: 293px;
+	left: 0px;
+	top: 2929px;
+}
+.lifec{
+	position: absolute;
+	width: 383px;
+	height: 59px;
+	left: 490px;
+	top: 3070px;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 148.4%;
+	/* or 21px */
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.line1{
+	position: absolute;
+	width: 160px;
+	height: 0px;
+	left: 600px;
+	top: 3075px;
+
+	border: 1px solid #95CC28;
+
+}
+
+.watchit{
+	position: absolute;
+	width: 205px;
+	height: 39px;
+	left: 585px;
+	top: 3120px;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 150.4%;
+	/* or 21px */
+
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+
+	color: #95CC28;
+}
+.cameras{
+	position: absolute;
+	width: 299px;
+	height: 34px;
+	left: 530px;
+	top: 2970px;
+
+	font-family: 'Ubuntu';
+	
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 100.9%;
+	/* or 35px */
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.nemk{
+	position: absolute;
+	width: 627px;
+	height: 34px;
+	left: 365px; 
+	top: 3360px;
+
+	font-family: 'Ubuntu';
+	
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 100.9%;
+	/* or 35px */
+
+	text-align: center;
+
+	color: #000000;
+}
+.shadow{
+	z-index: 5;
+	position: absolute;
+	left: 685px;
+	right: 10.9%;
+	top: 41.06%;
+	bottom: 57.13%;
+	width:  282px;
+	height: 70px;
+	background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 100%);
+}
+
+.shadow2{
+	z-index: 5;
+	position: absolute;
+	left: 95px;
+	right: 10.9%;
+	top: 70.5%;
+	bottom: 57.13%;
+	width:  550px;
+	height: 70px;
+	background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 100%);
+}
+.shadow3{
+	z-index: 5;
+	position: absolute;
+	left: 993px;
+	right: 10.9%;
+	top: 41.06%;
+	bottom: 57.13%;
+	width:  261px;
+	height: 70px;
+	background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 100%);
+}
+.shadow4{
+	z-index: 5;
+	position: absolute;
+	left: 685px;
+	right: 10.9%;
+	top: 70.5%;
+	bottom: 57.13%;
+	width:  570px;
+	height: 70px;
+	background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 100%);
+}
+.fotka1{
+	position: absolute;
+	width: 210px;
+	height: 210px;
+	left: 300px;
+	top: 3255px;
+
+}
+.fotka2{
+	position: absolute;
+	width: 210px;
+	height: 210px;
+	left: 575px;
+	top: 3255px;
+}
+.fotka3{
+	position: absolute;
+	width: 210px;
+	height: 210px;
+	left: 850px;
+	top: 3255px;
+}
+.contacts{
+	position: absolute;
+	width: 101px;
+	height: 40px;
+	left: 625px;
+	top: 3250px;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 100;
+	font-size: 26px;
+	line-height: 100.9%;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+.shadow1{
+	position: absolute;
+	width: 100%;
+	height: 293px;
+	left: 1px;
+	top: 2929px;
+
+	background: rgba(78, 82, 84, 0.7);
+}
+.nav_misto{
+	position: absolute;
+	width: 173px;
+	height: 56px;
+	left: 333px;
+	top: 21px;
+
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.navigation{
+	position: absolute;
+	background: #78705F;
+	width: 100%;
+	height: 75px;
+	left: 0px;
+	top: 0px;
+
+}
+
+.museum{
+	position: absolute;
+	left: 685px;
+	top: 200px;
+}
+.apteka{
+	position: absolute;
+	left: 993px;
+	top: 200px;
+
+}
+.viz_mista{
+		/* ВИЗНАЧНІ МІСЦЯ */
+
+
+	position: absolute;
+	width: 143px;
+	height: 44px;
+	left: 548px;
+	top: 15px;
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.tickets{
+	position: absolute;
+	width: 143px;
+	height: 44px;
+	left: 749px;
+	top: 15px;
+
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.park{
+	position: absolute;
+	width: 491px;
+	height: 68px;
+	left: 727px;
+	top: 1157px;
+
+	font-family: 'Ubuntu';
+	
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 100.9%;
+	/* or 35px */
+	color: #000000;
+
+}
+
+.guides{
+		/* ГІДИ */
+
+
+	position: absolute;
+	width: 173px;
+	height: 56px;
+	left: 935px;
+	top: 15px;
+
+	/* H1 */
+
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.tickets2{
+		/* Квитки */
+
+
+	position: absolute;
+	width: 105px;
+	height: 30px;
+	left: 1150px;
+	top: 15px;
+
+	/* H2 */
+
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 100.9%;
+	/* or 15px */
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+.int22{
+	line-height: 50px
+}
+.background{
+	position: relative;
+	width: 100%;
+	height: 912px;
+	top:0px;
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.165) 100%), url(images/background.jpg);
+	background-repeat:  no-repeat;
+}
+
+.travel{
+	/* ПОДОРОЖ */
+
+
+	position: absolute;
+	width: 205px;
+	height: 27px;
+	left: 43%;
+	top: 417px;
+
+	/* Text */
+
+	font-family: 'Fira Mono';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 108.4%;
+	/* or 52px */
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.72);
+}
+
+.olhak{
+	position:absolute;
+	left:95px;
+	top:200px;
+}
+.rep4ina{
+	position: absolute;
+	left: 100px;
+	top: 3530px;
+}
+.repak{
+	position: absolute;
+	width: 640px;
+	height: 12px;
+	left: 26.6%;
+	top: 3580px;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 128.4%;
+	/* or 13px */
+
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+.mycontacts{
+	position: absolute;
+	width: 614px;
+	height: 75px;
+	left: 26.6%;
+	top: 88.6%;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 129.4%;
+	/* or 18px */
+
+
+	color: #FFFFFF;
+
+	opacity: 0.5;
+}
+.cathedral{
+	z-index: 1;
+	position: absolute;
+	width: 570px;
+	height: 247px;
+	left: 685px;
+	top: 470px;
+}
+.rect{
+	position: absolute;
+	width: 1430px;
+	height: 171px;
+	left: 0px;
+	top: 3500px;
+
+	background: #202020;
+}
+.contactsf{
+	position: absolute;
+	left: 26.6%;
+	top: 88%;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 128.4%;
+	/* or 18px */
+
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+.cathedralt{
+	z-index: 6;
+	position: absolute;
+	left: 800px;
+	right: 15.69%;
+	top: 650px;
+	bottom: 57.67%;
+
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 93.9%;
+	/* or 21px */
+
+	text-align: center;
+	letter-spacing: -0.035em;
+	color: #FFFFFF;
+}
+.aptm{
+	z-index: 6;
+	position: absolute;
+	left: 1050px;
+	right: 12.21%;
+	top: 380px;
+	bottom: 14.17%;
+
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 93.9%;
+	/* or 21px */
+
+	text-align: center;
+	letter-spacing: -0.035em;
+
+	color: #FFFFFF;
+}
+.kraeznav{
+	z-index: 6;
+	position: absolute;
+	left: 470px;
+	right: 12.21%;
+	top: 380px;
+	bottom: 14.17%;
+
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 93.9%;
+	/* or 21px */
+
+	text-align: center;
+	letter-spacing: -0.035em;
+
+	color: #FFFFFF;
+}
+.streeto{
+	z-index: 6;
+	position: absolute;
+	width: 414px;
+	height: 59px;
+	left: 150px;
+	top: 600px;
+
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 93.9%;
+	/* or 34px */
+
+	text-align: center;
+	letter-spacing: -0.035em;
+
+	color: #fff;
+}
+
+/* Dropdown Button */
+.btn {
+
+    background-color: #78705F;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    margin-top: 15px;
+	margin-left: 300px;
+	text-transform: uppercase;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #78705F;;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #78705F}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.btn:hover, .dropdown:hover .btn  {
+    background-color: #696253;;
+}
+
+.line{
+	position: absolute;
+	width: 99.5%;
+	height: 0px;
+	left: 0px;
+	top: 65px;
+	border: 2px solid rgba(255, 255, 255, 0.58);
+}
+.l2{
+	position: absolute;
+	width: 400px;
+	top: 100px;
+	left: 495px;
+
+	border: 1px solid #95CC28;
+}
+
+.mista{
+    position: absolute;
+    width: 246px;
+    height: 27px;
+    left: 567px;
+    top: 963px;
+    line-height: 108.4%;
+    font-family: 'Ubuntu';
+    
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100.9%;
+    text-align: center;
+    color: #000000;
+}
+
+.vmist_park{
+	position: absolute;
+	width: 454px;
+	height: 119px;
+	left: 733px;
+	top: 1233px;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 148.4%;
+	/* or 21px */
+	color: #202020;
+}
+
+.parki{
+    position: absolute;
+    left: 95px;
+    top: 1155px;
+}
+.teatr{
+    position: absolute;
+    left: 500px;
+    top: 38.5%;
+    bottom: 11.41%;
+}
+
+.teatrp{
+	position: absolute;
+	left: 500px;
+	top: 44.2%;
+
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 128.4%;
+
+	color: #000000;
+}
+
+.bliznuki{
+    position: absolute;
+    left: 900px;
+    top: 38.5%;
+    bottom: 11.41%;
+}
+
+.bliznukit{
+	position: absolute;
+	width: 500px;
+	left: 900px;
+	top: 44.2%;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	color: #000000;
+}
+.loca{
+
+	position: absolute;
+	width: 190px;
+	height: 28px;
+	left: 766px;
+	top: 1424px;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 148.4%;
+	/* or 21px */
+	color: #202020;
+}
+.resident{
+    position: absolute;
+    left: 95px;
+    top: 38.5%;
+    bottom: 11.41%;
+}
+.l1{
+	position: absolute;
+	width: 500px;
+	height: 0px;
+	left: 730px;
+	top: 1480px;
+
+	border: 1px solid #95CC28;
+}
+.vmist{
+	margin-left: 0px;
+}
+.resm{
+
+	position: absolute;
+	left: 95px;
+	top: 44.2%;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 128.4%;
+	/* or 23px */
+	font-weight:bolder;
+	color: #000000;
+}
+
+.tourm{
+	position: absolute;
+	width: 190px;
+	height: 28px;
+	left: 1028px;
+	top: 1424px;
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 148.4%;
+	/* or 21px */
+
+
+	color: #202020;
+
+}
+.chernivcami{
+
+	position: absolute;
+	width: 324px;
+	height: 47px;
+	left: 38%;
+	top: 470px;
+
+	font-family: 'Fira Mono';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 108.4%;
+	/* or 52px */
+
+	text-align: center;
+
+	color: #FFFFFF;
+	text-shadow: 9px 4px 40px #000000;
+}
+.bilwe{
+	position: absolute;
+	width: 476px;
+	height: 40px;
+	left: 460px;
+	top: 25px;
+
+	font-family: 'Ubuntu';
+	
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 100.9%;
+	/* or 35px */
+
+	text-align: center;
+
+	color: #000000;
+}
+.mostw{
+	position: absolute;
+	width: 100%;
+	height: 919px;
+	left: 0px;
+	top: 2027px;
+	background: #F9F9F9;
+}
+.UA{
+	position: absolute;
+	width: 29px;
+	height: 21px;
+	left: 95px;
+	top: 15PX;
+
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 100.9%;
+	/* or 14px */
+
+	text-align: center;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+.EN{
+		/* EN */
+
+
+	position: absolute;
+	width: 29px;
+	height: 21px;
+	left: 125px;
+	top: 15px;
+
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 100.9%;
+	/* or 14px */
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
