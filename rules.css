@@ -135,3 +135,77 @@
 	.mycontacts{font-size: 13px}
 	.repak{width: 394px;font-size: 9px}
 }
+@media only screen and (max-width: 1920px)
+{
+	.nav{
+		left: 100px;
+	}
+	.EN{
+	left: 140px;
+	top: 0px;
+	font-size: 24px;
+	}
+
+	.UA{
+	left: 90px;
+	top: 0px;
+	font-size: 24px;
+	}
+	.dropdown {
+    position: absolute;
+    display: inline-block;
+	margin-left: 350px;
+	margin-top: 5px;
+	font-size: 14px;
+	text-transform: uppercase;
+	}
+	.btn{font-size: 24px;}
+	.viz_mista{left: 675px; top:  5px;font-size: 24px; width: 200px;}
+	.tickets{left: 1320px;font-size: 24px; top: 5px}
+	.guides{font-size: 24px;top: 5px;left: 960px;}
+	.tickets2{font-size: 24px;top: 0px;left: 1730px;}
+	.chernivcami{left: 38.5%;top: 420px;font-size: 72px;}
+	.travel{left: 42%; font-size: 72px; top: 330px;}
+	.mista{left:37%;font-size:56px; width:500px;}
+	.parki{left: 275px;width: 600px;height:500px;}
+	.park{
+		font-size: 42px;
+		left: 920px;
+		top: 1140px;
+		width:600px;
+	}
+	.vmist_park{left: 920px;width: 650px; font-size: 24px}
+	.l1{width: 650px;left: 920px; top:1625px;}
+	.resident{left: 275px; width: 450px; top:1690px;}
+	.resm{left: 275px; top:1915px;font-size:24px;}
+	.teatr{left: 750px;top: 1690px; width:450px;}
+	.teatrp{left: 750px;top:1915px;font-size:24px;}
+	.bliznuki{left: 1225px;width: 375px; top: 1690px;}
+	.bliznukit{left: 1225px;top:1915px;font-size:24px;width: 220px;}
+	.tourm{left: 1350px; font-size:24px;top: 1550px;width:500px;}
+	.loca{left: 925px;font-size:24px; top: 1550px;width:500px;}
+	.olhak{left:275px; width :600px;}
+	.shadow2{left:275px; width :600px;}
+	.bilwe{left:37%;font-size:56px; top:0px;}
+	.l2{left:730px; top:120px;}
+	.streeto{left:365px;}
+	.museum{left:920px; width: 350px;}
+	.shadow{left:920px; width:350px;}
+	.apteka{left:1300px; width: 300px;}
+	.shadow3{left:1300px; width: 300px;}
+	.cathedral{left:920px; width:680px;}
+	.shadow4{left:920px; width:680px;}
+	.kraeznav{left:525px;}
+	.aptm{left:1200px;}
+	.cathedralt{left:925px;}
+	.cameras{left:42%; font-size:42px; top: 2925px;}
+	.line1{left:875px;top:3065px;}
+	.lifec{left:40%;}
+	.watchit{left:850px;}
+	.fotka1{left:230px;width:400px;}
+	.fotka2{left:750px; width:400px;}
+	.fotka3{left:1270px; width:400px;}
+	.contactsf{top:3520px;}
+	.mycontacts{top:3550px;}
+	.rep4ina{left:250px;}
+}
