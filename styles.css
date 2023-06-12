@@ -2,14 +2,14 @@ html{
 
     width: 100%;
     max-width: 100%;
-    #over#flow-x: hidden;
+    overflow-x: hidden;
 }
 
 body{
 	position: relative;
 	width: 100%;
 	max-width: 100%;
-    #over#flow-x: hidden;
+    overflow-x: hidden;
 	height: 3650px;
 	overflow-y: scroll;
 	font-family: 'Ubuntu';
